@@ -166,30 +166,39 @@ div .button-search:hover button:hover {
     color: #202124;
 }
 /* Incio de footer */
-.sub-container{
-    background-color: #f2f2f2;
-    flex-shrink: 0;
-    box-sizing: border-box;
-    margin-block-end: auto;
-    display: block;
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: #f2f2f2;
 }
-footer .footer-pais p{
+footer .footer-pais{
     padding: 15px 30px;
     border-bottom: 1px solid #dadce0;
-    font-size: 13px;
-    color: #70757a;
+    
 }
+
+footer .footer-pais p{
+    margin: 8px;
+    display: inline-block;
+    font-size: 15px;
+    color: #70757a;
+    font-family: Arial, sans-serif;
+}
+
 footer .footer-google{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 15px 30px;
 }
+
 footer .footer-google a{
+    font-size: 15px;
     color: #70757a;
     text-decoration: none;
-    margin: 10px;
     display: inline-block;
-    font-size: 14px;
+    font-family: Arial, sans-serif;
 }
 
 footer .footer-google a:hover{
