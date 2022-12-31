@@ -167,7 +167,7 @@ div .button-search:hover button:hover {
 }
 /* Incio de footer */
 .sub-container{
-    background-color: tomato; /*background-color: #f2f2f2;*/
+    background-color: #f2f2f2;
     flex-shrink: 0;
     box-sizing: border-box;
     margin-top: 190px;
@@ -175,8 +175,8 @@ div .button-search:hover button:hover {
 }
 footer .footer-pais p{
     padding: 15px 30px;
-    border-bottom: 1px solid #dadce0;;
-    font-size: 15px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 13px;
     color: #70757a;
 }
 footer .footer-google{
