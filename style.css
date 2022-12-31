@@ -10,7 +10,7 @@ body{
     color: #202124;
 }
 /*contenedor*/
-.div-container{
+header .div-container{
     display: block;
     height:100%;
 }
@@ -38,7 +38,7 @@ a{
 a:hover, a:active {
     text-decoration: underline;
 }
-div nav .nav-right{
+header nav .nav-right{
     display: flex;
     justify-content:flex-end;
     list-style: none;
@@ -80,8 +80,8 @@ nav .icon-apps span{
 .btn-log{
     margin-left: 8px;
 }
-/*container*/
-div .input-container{
+/*main container*/
+main .input-container{
     text-align: center;
     margin-top:auto;
 }
@@ -164,4 +164,33 @@ div .button-search:hover button:hover {
     background-color: #f8f9fa;
     border: 1px solid #dadce0;
     color: #202124;
+}
+/* Incio de footer */
+footer .sub-container{
+    background-color: #f2f2f2;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    margin-top: 120px;
+}
+footer .footer-pais p{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;;
+    font-size: 15px;
+    color: #70757a;
+}
+footer .footer-google{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .footer-google a{
+    color: #70757a;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+footer .footer-google a:hover{
+    text-decoration: underline;
 }
