@@ -171,6 +171,7 @@ footer .sub-container{
     flex-shrink: 0;
     box-sizing: border-box;
     margin-top: 120px;
+    display: block;
 }
 footer .footer-pais p{
     padding: 15px 30px;
